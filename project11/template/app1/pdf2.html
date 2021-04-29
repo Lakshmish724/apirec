@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pdf2</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	{{ customer }}
+	<hr>
+	{{ customer.address | linebreaks}}
+	<br>
+	{{ customer.lll}}
+	<br>
+	{{ customer.lll.url}}
+	<br>
+	{{ customer.lll.path}}
+
+	<img src="media/{{ customer.lll }}" height="200px">
+
+</body>
+</html>
